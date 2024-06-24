@@ -1,0 +1,196 @@
+/* /////////////Nav Bar with name/////////// */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  /* border-style: dashed; */
+  display: block;
+  font-weight: 100;
+  font-size: 400%;
+  position: static;
+  width: 30%;
+  height: auto;
+  padding: 1% 2% 0% 2%;
+  font-family: "Lucida Bright";
+}
+
+navBar {
+  /* border-style: dashed; */
+  box-shadow: 0 0 12px -2px black;
+  background-color: #aea3a3;
+  color: aliceblue;
+  padding: 0.8%;
+  display: flex;
+  border-style: double;
+  justify-content: space-between;
+}
+
+/* /////////Nav bar's links to other pages ////////// */
+a {
+  /* border-style: dashed; */
+  display: grid;
+  font-size: 200%;
+  color: white;
+  font-family: "Lucida Bright";
+  text-decoration: none;
+  padding-top: 5%;
+}
+
+ul {
+  /* border-style: dashed; */
+  height: max-content;
+  list-style-type: none;
+  text-align: center;
+  padding-right: 2%;
+}
+
+/* //////////////body body body///////////////// */
+.description {
+  /* border-style: dashed; */
+  display: block;
+  max-width: fit-content;
+  padding: 1.5%;
+  text-align: center;
+  margin-bottom: 0%;
+  font-family: "Lucida Bright";
+}
+
+.description_medium {
+  padding-top: 5%;
+  color: rgb(100, 99, 99);
+  font-size: 125%;
+  font-family: "Lucida Bright";
+  margin-top: 0%;
+}
+
+.container {
+  border-style: solid;
+  background-color: rgb(43, 40, 63);
+  width: 53em;
+  height: 30em;
+  border-radius: 10%;
+  position: relative;
+  top: 35%;
+  left: 35%;
+  z-index: -1;
+}
+
+.inner-white-box {
+  background-color: rgb(255, 255, 255);
+  border-style: ridge;
+  border-radius: 29px;
+  border-color: rgba(245, 245, 245, 0.439);
+  left: 4.25%;
+  top: 8%;
+  width: 90%;
+  position: absolute;
+  height: 55%;
+  z-index: 0;
+}
+
+.gray-lines {
+  border-style: ridge;
+  border-color: gray;
+  border-color: gray;
+  border-width: 1px;
+  transform: translate(10%, 95%);
+  width: 85%;
+  height: 35px;
+  display: grid;
+  border-right: none;
+  border-left: none;
+}
+
+.rainbow {
+  /* border-style: dashed; */
+  border-color: purple;
+  margin-top: 20%;
+
+  .pink {
+    background-color: pink;
+    width: 771px;
+    height: 25px;
+    top: 140px;
+    left: 4.25%;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .yellow {
+    background-color: rgb(251, 221, 88);
+    width: 771px;
+    height: 25px;
+    top: 165px;
+    left: 4.25%;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .green {
+    background-color: rgb(11, 237, 210);
+    width: 771px;
+    height: 25px;
+    top: 190px;
+    left: 4.25%;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .blue {
+    background-color: rgb(9, 148, 198);
+    width: 771px;
+    height: 25px;
+    top: 215px;
+    left: 4.25%;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .orange {
+    background-color: rgb(248, 181, 56);
+    width: 771px;
+    height: 25px;
+    top: 240px;
+    left: 4.25%;
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+.tape-dispenser {
+  border-style: solid;
+  background-color: rgb(43, 40, 63);
+  height: 25%;
+  width: 50%;
+  left: 25%;
+  bottom: 6.5%;
+  position: inherit;
+  border-radius: 60px;
+  z-index: 2;
+
+  .circle {
+    border-style: solid;
+    height: 70%;
+    width: 90px;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    align-items: center;
+    border-radius: 100px;
+    background-color: white;
+    z-index: 3;
+  }
+  .second-circle {
+    border-style: solid;
+    height: 70%;
+    width: 90px;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    border-radius: 100px;
+    background-color: white;
+    z-index: 3;
+  }
+}

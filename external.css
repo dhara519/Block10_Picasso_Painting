@@ -79,9 +79,8 @@ ul {
 
 .inner-white-box {
   background-color: rgb(255, 255, 255);
-  border-style: ridge;
+  border: ridge rgba(245, 245, 245, 0.439);
   border-radius: 29px;
-  border-color: rgba(245, 245, 245, 0.439);
   left: 4.25%;
   top: 8%;
   width: 90%;
@@ -91,9 +90,7 @@ ul {
 }
 
 .gray-lines {
-  border-style: ridge;
-  border-color: gray;
-  border-color: gray;
+  border: ridge gray;
   border-width: 1px;
   transform: translate(10%, 95%);
   width: 85%;
@@ -104,8 +101,6 @@ ul {
 }
 
 .rainbow {
-  /* border-style: dashed; */
-  border-color: purple;
   margin-top: 20%;
 
   .pink {
@@ -193,4 +188,47 @@ ul {
     background-color: white;
     z-index: 3;
   }
+}
+
+.form-group {
+  font-size: 20px;
+  padding: 1%;
+}
+
+.contact {
+  font-size: 200%;
+  font-family: "Lucida Bright";
+  padding: 1% 0% 0% 2%;
+}
+
+.btn {
+  display: grid;
+  font-size: 20px;
+}
+
+.btn-submit {
+  margin: 5px 0px 0px 16px;
+  background-color: green;
+  color: white;
+  font-weight: 300;
+  font-family: "Lucida Bright";
+  font-size: 130%;
+  padding: 0.3%;
+  border-radius: 15%;
+  width: 5%;
+}
+
+.form-group {
+  font-size: 150%;
+  display: grid;
+  font-family: "Lucida Bright";
+}
+
+input {
+  padding: 1%;
+  max-width: 15%;
+}
+
+form {
+  padding: 0.5% 0% 0% 2%;
 }
